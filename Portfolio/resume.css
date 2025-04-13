@@ -1,0 +1,48 @@
+body
+{
+    background-image: url("picture/lap.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img{
+    width: 600px;
+    height: 650px;
+}
+.resume
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+h1
+{
+    font-size: 60px;
+    margin-bottom: 0%;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button
+{
+    width: 200px;
+    height: 40px;
+    font-size: x-large;
+    font-weight: bolder;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 250px;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    
+}
+button:hover
+{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
